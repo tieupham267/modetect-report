@@ -1,8 +1,7 @@
-import numpy as np  # importing Numpy for use w/ OpenCV
-import cv2  # importing Python OpenCV
-from datetime import datetime  # importing datetime for naming files w/ timestamp
+import numpy as np                  # importing Numpy for use w/ OpenCV
+import cv2                          # importing Python OpenCV
+from datetime import datetime       # importing datetime for naming files w/ timestamp
 import argparse
-#import datetime
 import time
 
 def diffImg(t0, t1, t2):  # Function to calculate difference between images.
